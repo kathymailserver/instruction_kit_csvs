@@ -1,0 +1,17 @@
+type,instruction
+name,tarrant
+url,https://odyssey.tarrantcounty.com/PublicAccess/default.aspx
+general,id[+]sbxControlID2[+]menu[+]All JP Courts
+general,xpath[+]/html/body/table/tbody/tr[2]/td/table/tbody/tr[1]/td[2]/a[3][+]click[+]n/a
+general,xpath[+]/html/body/form/table[4]/tbody/tr/td/table/tbody/tr[4]/td[2]/table/tbody/tr/td[2]/select[+]menu[+]Date Range
+general,id[+]chkDtRangeCriminal[+]click[+]n/a
+general,id[+]chkDtRangeFamily[+]click[+]n/a
+general,id[+]chkDtRangeProbate[+]click[+]n/a
+general,id[+]DateSettingOnAfter[+]date[+]n/a
+general,id[+]DateSettingOnBefore[+]date[+]n/a
+datamine,xpath[+]/html/body/table[4]/tbody/tr[{}]/td[1]/table/tbody/tr[1]/td/a[+]click[+]n/a
+name,id[+]PIr11[+]copy[+]defendant
+addr,xpath[+]/html/body/table[4]/tbody/tr[3]/td[+]copy[+]defendant
+caseno,xpath[+]/html/body/div[2]/span[+]copy[+]n/a
+date,xpath[+]/html/body/table[3]/tbody/tr/td[3]/table/tbody/tr/td/table/tbody/tr[2]/td/b[+]copy[+]n/a
+casetype,xpath[+]/html/body/table[3]/tbody/tr/td[3]/table/tbody/tr/td/table/tbody/tr[1]/td/b[+]copy[+]n/a
